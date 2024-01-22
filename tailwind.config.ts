@@ -20,6 +20,8 @@ export default {
     require('daisyui'),
   ],
 
+  safelist: [...safelist, 'dark'],
+
   daisyui: {
     base: false,
     themes: [
@@ -110,23 +112,6 @@ export default {
       },
     },
   },
-
-  // daisyui: {
-  //   base: false,
-  //   themes: [
-  //     {
-  //       mytheme: {
-  //         primary: pg_colors.primary[500],
-  //         secondary: pg_colors.secondary[500],
-  //         // accent: '#37cdbe',
-  //         // neutral: '#3d4451',
-  //         'base-100': '#ffffff',
-  //       },
-  //     },
-  //   ],
-  // },
-
-  safelist: [...safelist, 'dark'],
 
   /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
   get content() {
